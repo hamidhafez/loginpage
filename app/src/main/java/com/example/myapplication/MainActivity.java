@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        setLanguageForApp("en");
+        //setLanguageForApp("en");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(new Intent(MainActivity.this, actSignup.class));
     }
 
-    private void setLanguageForApp(String language){
+   /* private void setLanguageForApp(String language){
         String languageToLoad  = language; //pass the language code as param
         Locale locale;
         if(languageToLoad.equals("not-set")){
@@ -57,5 +57,5 @@ public class MainActivity extends AppCompatActivity {
         config.locale = locale;
         getBaseContext().getResources().updateConfiguration(config,
                 getBaseContext().getResources().getDisplayMetrics());
-    }
+    }*/
 }
