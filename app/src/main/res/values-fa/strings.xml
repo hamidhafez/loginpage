@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="username">ایمیل</string>
+    <string name="txtpwd">رمز عبور</string>
+    <string name="signup">ثبت نام</string>
+    <string name="login">ورود</string>
+</resources>

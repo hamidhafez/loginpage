@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name" translatable="false">My Application</string>
+    <string name="username">email</string>
+    <string name="txtpwd">password</string>
+    <string name="signup">signup</string>
+    <string name="login">login</string>
+</resources>
