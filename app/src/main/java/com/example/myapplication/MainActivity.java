@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         }
         else
         {
-            Toast.makeText(this, R.string.invalidpass, Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "invalid pass", Toast.LENGTH_SHORT).show();
         }
     }
 
